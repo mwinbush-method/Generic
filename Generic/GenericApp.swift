@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+var navigator : GlobalNavigator = GlobalNavigator()
+
 @main
 struct GenericApp: App {
     var body: some Scene {
