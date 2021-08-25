@@ -15,7 +15,6 @@
 		6F6B9D1B26C2FCC1008D5789 /* GenericUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6B9D1A26C2FCC1008D5789 /* GenericUITests.swift */; };
 		6F6B9D2926C2FE67008D5789 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6B9D2826C2FE67008D5789 /* FirstPage.swift */; };
 		6F6B9D2B26C2FE99008D5789 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6B9D2A26C2FE99008D5789 /* SecondPage.swift */; };
-		6FACE5CC26C6FB3B00345121 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACE5CB26C6FB3B00345121 /* ARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F310BC526CED5C500DFFD31 /* BoxObject.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = BoxObject.rcproject; sourceTree = "<group>"; };
 		6F6B9CFA26C2FCBF008D5789 /* Generic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Generic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6B9CFD26C2FCBF008D5789 /* GenericApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericApp.swift; sourceTree = "<group>"; };
 		6F6B9CFF26C2FCBF008D5789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +50,6 @@
 		6F6B9D1C26C2FCC1008D5789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6B9D2826C2FE67008D5789 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		6F6B9D2A26C2FE99008D5789 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
-		6FACE5CB26C6FB3B00345121 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +77,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F37DC7D26CEDEFD007E0C68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6F6B9CF126C2FCBF008D5789 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +107,14 @@
 		6F6B9CFC26C2FCBF008D5789 /* Generic */ = {
 			isa = PBXGroup;
 			children = (
+				6F310BC526CED5C500DFFD31 /* BoxObject.rcproject */,
+				6F37DC7D26CEDEFD007E0C68 /* Model */,
 				6F6B9CFD26C2FCBF008D5789 /* GenericApp.swift */,
 				6F6B9CFF26C2FCBF008D5789 /* ContentView.swift */,
 				6F6B9D0126C2FCC1008D5789 /* Assets.xcassets */,
 				6F6B9D0626C2FCC1008D5789 /* Info.plist */,
 				6F6B9D0326C2FCC1008D5789 /* Preview Content */,
 				6F6B9D2826C2FE67008D5789 /* FirstPage.swift */,
-				6FACE5CB26C6FB3B00345121 /* ARView.swift */,
 				6F6B9D2A26C2FE99008D5789 /* SecondPage.swift */,
 			);
 			path = Generic;
@@ -268,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FACE5CC26C6FB3B00345121 /* ARView.swift in Sources */,
 				6F6B9D2B26C2FE99008D5789 /* SecondPage.swift in Sources */,
 				6F6B9D0026C2FCBF008D5789 /* ContentView.swift in Sources */,
 				6F6B9CFE26C2FCBF008D5789 /* GenericApp.swift in Sources */,
